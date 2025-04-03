@@ -1,5 +1,4 @@
 ﻿
-
 namespace ConsoleApp1
 {
     class Car
@@ -7,6 +6,11 @@ namespace ConsoleApp1
         public void StartEngine()
         {
             Console.WriteLine("*Engine sounds*");
+        }
+
+        public void StopEngine()
+        {
+            Console.WriteLine("Engine stops...");
         }
     }
 }
